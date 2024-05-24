@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <style>
+        .box
+        {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+   <div class="box">
+        <span>Hello</span>
+        <i class="ri-arrow-down-s-line"></i>
+    </div>
+        <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus eligendi atque id cum fuga repellat officiis quisquam iste distinctio, sed a accusantium quos ratione necessitatibus laudantium quas non perferendis tempora!
+        Perspiciatis deserunt ducimus quis! Doloremque quis fuga ipsum delectus atque nobis mollitia rerum! Voluptate, nesciunt officia. Ex voluptatem, veniam et nostrum error quos nesciunt, eligendi libero qui, at sit similique.
+        Nisi ut sit harum, explicabo iste recusandae porro natus architecto repudiandae delectus tempore omnis asperiores quam cupiditate dignissimos velit consectetur a voluptatum! Possimus consectetur totam similique odit assumenda quo repellat.
+        Expedita alias excepturi reprehenderit eaque dignissimos, dolorum voluptas beatae. Tempore, asperiores tenetur possimus iusto culpa unde saepe ad, corporis illum alias, voluptate quia cum velit deserunt? Officia, deserunt? Aspernatur, exercitationem?
+        Culpa aut, animi eveniet ratione quisquam dolorem? Beatae sapiente dolor quis soluta nostrum totam, maiores blanditiis, quos hic, numquam suscipit. Atque veritatis pariatur quae amet ea voluptates praesentium quidem consequuntur?
+    </p>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".box").click(function(){
+                $("p").hide(3000);
+            });
+            $(".box").click(function(){
+                $("p").show();
+            });
+        });
+    </script>
+</body>
+
+</html>
